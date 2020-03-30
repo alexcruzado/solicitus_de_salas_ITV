@@ -1,0 +1,114 @@
+.jumbotron
+{
+	background-image: url("/solicitud_salas/img/itver.jpg");	
+	background-size: cover;
+	background-position: center;
+	height:200px;
+	margin-bottom: 0px;
+	
+}
+.jumbotron h2
+{	
+	float: right;
+	color: white;
+	margin-top:80px;
+}
+.textofooter 
+{
+	background-color: black;
+	color: white;
+	font-size:25px;
+	font-weight: bold;
+	text-align: center;
+	height:50px;
+	padding-top:10px;
+	margin-top: 100px;
+}
+.tablaheader{
+	background-color: black;
+	color:white;
+	font-weight: bold;
+	font-size: 20px;
+}
+.headerotrocolor{
+	background-color: white;
+	color:black;
+}
+.columna
+{
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+textarea{
+	width: 100%;	
+	resize:none;		
+}
+
+/* A CONTINUACIÓN VAN LOS PREFIJOS */ 
+
+
+/* Prefijos col */
+@media (max-width: 575px){
+	.columna
+	{
+		background-color: red;
+		color: white;
+		font-size: 15px;
+		font-weight: bolder;
+		text-align: center;
+	}
+	.jumbotron h2
+	{
+		float: right;
+		color: white;
+		font-size: 20px;
+		margin-top:120px;
+	}
+	.textofooter 
+	{
+		background-color: black;
+		color: white;
+		font-size:15px;
+		font-weight: bold;
+		text-align: center;
+		height:50px;
+		padding-top:10px;
+		margin-top: 100px;
+	}
+		.jumbotron
+	{
+		height:200px;
+		margin-bottom: 0px;
+		
+	}
+}
+/* Prefijos col-sm */
+@media (min-width: 576px) and (max-width: 767px){
+	.columna
+		{
+			background-color: blue;
+			color: white;
+			font-size: 20px;
+			font-weight: bolder;
+			text-align: center;
+		}
+
+}
+/* Prefijos col-md */
+@media (min-width: 768px) and (max-width: 991px){
+	.columna
+		{
+			background-color: green;
+			color: white;
+			font-size: 25px;
+			font-weight: bolder;
+			text-align: center;
+		}
+}
+/* Prefijos col-xl */
+@media (min-width: 992px) and (max-width: 1200px){
+}
